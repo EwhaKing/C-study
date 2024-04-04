@@ -1,0 +1,36 @@
+Exercises
+
+1. Create a list of six legal variable names—three good and three bad choices. Explain why each name falls into the good or bad category.
+
+good : playerScore / numAttempts / totalScore
+
+bad : variable12 / _temp / erowiuw(not descriptive)
+
+
+
+2. What’s displayed by each line in the following code snippet? Explain each result.
+
+cout << "Seven divided by three is " << 7 / 3 << endl;
+
+cout << "Seven divided by three is " << 7.0 / 3 << endl;
+
+cout << "Seven divided by three is " << 7.0 / 3.0 << endl;
+
+
+
+Seven divided by three is 2
+Seven divided by three is 2.33333
+Seven divided by three is 2.33333
+
+3. Write a program that gets three game scores from the user and displays the average.
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+int main() {
+    int a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    cout << (a+b+c)/3 << endl;
+}
