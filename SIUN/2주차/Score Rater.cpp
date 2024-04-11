@@ -1,3 +1,6 @@
+// Score Rater
+// Demonstrates the if statement
+
 #include <iostream>
 using namespace std;
 int main()
