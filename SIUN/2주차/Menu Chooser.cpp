@@ -1,24 +1,29 @@
-#include <iostream>
+// Menu Chooser
+// Demonstrates the switch statement
+#include <iostream> 
 using namespace std;
 int main() {
-    int score;
-    cout << "Enter your score: ";
-    cin >> score;
-    if (score >= 1000)
+    cout << "Difficulty Levels\n\n";
+    cout << "1 - Easy\n"
+    cout << "2 - Normal\n";
+    cout << "3 - Hard\n\n";
+
+    int choice;
+    cout << "Choice: ";
+    cin >> choice;
+    switch(choice)
     {
-        cout << "You scored 1000 or more. Impressive!\n";
-    }
-    else if (score >= 500) 
-    {
-        cout << "You scored 500 or more. Nice.\n"; 
-    }
-    else if (score >= 250) 
-    {
-        cout << "You scored 250 or more. Decent.\n"; 
-    }
-    else 
-    {
-        cout << "You scored less than 250. Nothing to brag about.\n"; 
+        case 1:
+            cout << "You picked Easy.\n";
+            break;
+        case 2:
+            cout << "You picked Normal.\n";
+            break; 
+        case 3:
+            cout << "You picked Hard.\n";
+            break;
+        default:
+            cout << "You made an illegal choice.\n";
     }
     return 0; 
 }
