@@ -1,9 +1,0 @@
-2. What’s wrong with the following loop?
- int x = 0;
- while (x)
- {
- }
- ++x;
- cout << x << endl;
-
--> x가 끝나는 값이 명시되어 있지 않아 무한으로 루프가 발생하는 문제가 생긴다.
