@@ -23,9 +23,9 @@ week 2 4/1 ~ 4/7     if, loops   ~57p
 
 week 3 4/8 ~ 4/14    and or not 논리구조, 랜덤 숫자생산, for loops, string objects ~96p
 
-week 4 4/15 ~ 4/21   배열 ~114p
+week 4 4/29 ~ 5/5   배열 ~114p
 
-week 5 5/6 ~ 5/12    벡터사용, 반복 ~130p
+week 5 5/6 ~ 5/12   벡터사용, 반복 ~130p
 
 week 6 5/13 ~ 5/19   알고리즘 사용, 프로그램 계획 ~148p
 
