@@ -30,8 +30,8 @@ week 5 5/6 ~ 5/12   벡터사용, 반복 ~130p
 
 week 6 5/13 ~ 5/19   알고리즘 사용, 프로그램 계획 ~148p
 
-week 7 5/20 ~ 5/26   함수 만들기 ~186p
+week 7 5/20 ~ 5/26   chaprer 6 ~221p
 
-week 8 5/27 ~ 6/2    참조자 ~202p
+week 8 5/27 ~ 6/2   chapter 7 & chapter 8 (이거는 개념 정리만)
 
 week 9 (optional) ~ 6/30 Tic Tac Toe 게임 만들기
