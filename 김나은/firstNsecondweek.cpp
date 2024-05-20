@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	/*cout << "Game Over!" << endl;//endline std=���Ĵٵ�*/
+	/*cout << "Game Over!" << endl;//endline std=½ºÅÄ´Ùµå*/
 
 	int score;
 	double distance;
