@@ -1,0 +1,17 @@
+1. 오버헤드 발생가능 / 쉽고 직관적인 표기
+passed by value means parameter will get a copy of the argument variable and not access to the argument variable itself. 큰 오브젝트를 다룰때는 value 보다 reference를 사용하는게 효과적이다. reference는 여러개 선언 가능하며 참조자 대상으로도 reference 선언 가능하다.
+// Use pass by value for small, simple types where copying is cheap.
+Use pass by reference to const for read-only access to large objects.
+Use pass by non-const reference for modifying large objects.
+Consider move semantics for efficient handling of objects that support move operations.
+
+2. 큰 오브젝트를 다룰때는 value 보다 reference를 사용하는게 효과적이다. reference는 여러개 선언 가능하며 참조자 대상으로도 reference 선언 가능하다.
+
+3. constant를 쓰면 게임 프로그래머들에게 argument variable value를 바꾸려 한다고 생각한다. / constant reference는 오버헤드를 방지함. (access 만 전달하기 때문)
+4. large object를 다룰때는 value 전달하는것보다 효과적임
+5. 
+
+Exercise
+1.
+2. int, float을 혼용하면 안됨
+3. 참조자 표시를 빼야함
