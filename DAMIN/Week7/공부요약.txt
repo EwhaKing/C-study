@@ -1,0 +1,57 @@
+Declaring Functions
+void() instructions();
+
+Defining Functions
+void instructions(){
+...
+}
+
+Calling Functions
+instructions();
+
+
+
+[ Abstractions ] : 추상성
+abstraction lets you think about the big picture without worrying about the details.
+--> 다른 언어와 비슷해 보인다. 코드 정도만 보고 가도 될 듯.
+
+
+[ Encapsuation] : 캡슐화
+Encapsulation helps keep independent code truly separate by hiding or encapsulating the details.
+
+abstractions은 abstractions 처럼 보일 수 있다. 깊게 연관이 있기 때문이다.
+Encapsulation은 abstraction의 principal이다.
+Abstraction은 saves you from worrying about details, while encapsulation hide the details from you.
+
+
+[ Understanding Software Reuse ]
+we can reuse functions in other programs.
+
+It's always a waste of time to reinvent the wheel, so software reuse-employing existing software and other elements in new projects-is a technique that game comanies take to heart. The benefits of software reuse include:
+Increased company productivity
+Improved software quality
+Improved software performance
+
+
+[ Using Global Constants ]
+unlike global variables, which can make your programs confusing, global constants-constants that can be accessed from anywhere in your program-can help make programs clearer.
+
+declaring은 유사하다.
+
+
+[ Using Default Arguments ]
+can save the caller the effort of constantly specifying this value by using a default argument-a value assigned to a parameter if none is specified.
+
+
+[ Overloading Functions ]
+what if you want a function that's more versatile-one that can accept different sets of arguments?
+-> you could call one function and pass vertices
+
+creating overloaded funtions
+int triple(int number);
+string triple(string text);
+// triple(): each of which specifies a different type as its single argument.
+In each function definition, we can see that I return triple the value sent.
+
+
+블로그 글 링크: https://blog.naver.com/2003damin/223460430603
