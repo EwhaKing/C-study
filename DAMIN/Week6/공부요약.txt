@@ -1,0 +1,42 @@
+[ 개요 ]
+
+Standard Template Library를 줄여서 STL이라고 부른다.
+STL represents a powerful containers, algorithms, and iterators, etc.
+
+Algorithms는 그 containers의 STL work에 의해 정의된다.
+
+algorithms: common functions that game programmers find themselves repeatedly applying merging, inserting, and removing container elements.
+
+iterators: objects that identify elements in containers and can be manipulated to move among elements.
+
+
+
+[ Using Vectors ]
+vector class: defines one kind of container provided by the STL. It meets the general description of a dynamic array.
+-> array와 비교했을 때의 단점 몇 가지
+: require a bit of extra memory as overhead, can be a performance cost when a vector grows in size, may not be available on some game console systems.
+
+vector declaring ex. vector<string> inventory;
+
+Member Function
+push_back(): member function adds a new element to the end of a vector.
+size(): simply returns the size of a vector.
+pop_back(): removes tha last element of a vector and reduces the vector size by one.
+clear(): removes all of the items of a vector and sets its size to 0.
+empty(): return boolean.
+
+Indexing
+array처럼 vector도 인덱싱이 가능하다. subscripting operator를 이용하면.
+
+
+[ Using Algorithms ]
+preparing to use algorithms: have to include the file with their definitions.
+ex. #include<algorithm>
+
+find() STL algorithm: searches a specified range of a container's elements for a value.
+random_shuffle(): randomizes the elements of a sequence.
+sort(): sorts the elements of a sequence in ascending order.
+
+
+
+블로그 글 링크: https://blog.naver.com/2003damin/223460363817
